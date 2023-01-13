@@ -84,14 +84,26 @@ hr {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 24px;
 }
+.course{
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.087);
+  padding: 16px;
+  border-radius: 10px;
+}
 .course .course-banner img{
-    width: 224px;
-    height: 104px;
+    /* width: 224px;
+    height: 104px; */
+    width: 100%;
 }
 .course-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.course-title{
+  font-size: 20px;
+}
+.course-author{
+  color: #FF4A60;
 }
 .fa-star{
     font-size: 12px;
@@ -101,4 +113,10 @@ hr {
 }
 .fa-star.empty{
     color: #AEAEAE;
+}
+.course-duration{
+  background-color: #FFE4E8;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #FF4A60;
 }
